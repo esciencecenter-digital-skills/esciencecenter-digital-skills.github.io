@@ -20,5 +20,6 @@ Afterwards you can just run:
 ```
 jekyll serve
 ```
+(or `jekyll serve --destination TMPDIR`) if you want to use a different destination directory.
 
 And then browse to `http://127.0.0.1:4000`
