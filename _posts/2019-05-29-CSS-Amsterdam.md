@@ -1,6 +1,6 @@
 ---
 layout: post
-title: May 2019 - CSS Amsterdam
+title: Open Science and Software best practices, May 2019, CSS Amsterdam
 ---
 We gave a 2-hour workshop for the [Computational Social Science Amsterdam](https://cssamsterdam.github.io/) community.
 
