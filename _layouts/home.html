@@ -11,8 +11,6 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2>Upcoming Workshops</h2>
-    <p>
-    </p>
     <ul class="post-list">
       {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
       {% for post in site.posts %}
