@@ -3,38 +3,36 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
+  {% endif %}
   {{ content }}
-
-  {%- if site.posts.size > 0 -%}
+  {% if site.posts.size > 0 %}
     <h2>Upcoming Workshops</h2>
+    {% capture now %}{{ 'now' | date: '%Y%m%d'}}{% endcapture %}
     <ul class="post-list">
-      {% capture now %}{{'now' | date: '%s' | plus: 0 }}{% endcapture %}
       {% for post in site.posts %}
-        {% capture date %}{{ post.date | date: '%s' | plus: 0 }}{% endcapture %}
+        {% capture date %}{{ post.date | date: '%Y%m%d'}}{% endcapture %}
         {% if date > now %}
-        <li>
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {%- if site.show_excerpts -%}
-            {{ post.excerpt }}
-          {%- endif -%}
-        </li>
+          <li>
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {% if site.show_excerpts %}
+              {{ post.excerpt }}
+            {% endif %}
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
     <h2>Past Workshops</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
-      {% capture date %}{{ post.date | date: '%s' | plus: 0 }}{% endcapture %}
+      {% for post in site.posts %}
+      {% capture date %}{{ post.date | date: '%Y%m%d'}}{% endcapture %}
       {% if date < now %}
         <li>
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -44,17 +42,17 @@ layout: default
               {{ post.title | escape }}
             </a>
           </h3>
-          {%- if site.show_excerpts -%}
+          {% if site.show_excerpts %}
             {{ post.excerpt }}
-          {%- endif -%}
+          {% endif %}
         </li>
       {% endif %}
-      {%- endfor -%}
+      {% endfor %}
     </ul>
 
-    {%- if site.rss -%}
+    {% if site.rss %}
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-    {%- endif -%}
-  {%- endif -%}
+    {% endif %}
+  {% endif %}
 
 </div>
