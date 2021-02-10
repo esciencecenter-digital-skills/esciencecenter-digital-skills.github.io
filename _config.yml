@@ -1,6 +1,7 @@
 remote_theme: jekyll/minima
 title: eScience Academy
 description: Workshops by Netherlands eScience Center
+future: true
 
 header_pages:
   - about.md
@@ -8,3 +9,4 @@ header_pages:
 github_username:  escience-academy
 twitter_username: eScienceCenter
 rss: false
+
