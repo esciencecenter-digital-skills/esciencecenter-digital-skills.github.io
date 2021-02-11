@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Software Carpentry with Python workshop, March 8-11, 2021, Online
+title: Software Carpentry with Python Workshop, March 8-11, 2021, Online
 ---
-[Software Carpentry with Python workshop, March 8-11, 2021, Online](https://escience-academy.github.io/2021-03-08-swc-nlesc/)
+[Software Carpentry with Python Workshop, March 8-11, 2021, Online](https://escience-academy.github.io/2021-03-08-swc-nlesc/)
