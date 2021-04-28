@@ -7,11 +7,12 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
   {{ content }}
+  {{ site.posts | sort: "title", "last" }}
   {% if site.posts.size > 0 %}
     <h2>Upcoming Workshops</h2>
     {% capture now %}{{ 'now' | date: '%Y%m%d'}}{% endcapture %}
     <ul class="post-list">
-      {% for post in site.posts reversed  %}
+      {% for post in site.posts %}
         {% capture date %}{{ post.date | date: '%Y%m%d'}}{% endcapture %}
         {% if date > now %}
           <li>
