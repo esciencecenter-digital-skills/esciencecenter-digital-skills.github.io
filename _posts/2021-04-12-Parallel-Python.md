@@ -2,4 +2,4 @@
 layout: post
 title: Parallel Programming in Python, April, 2021, Online
 ---
-The details of the workshop and the registration pages will be published soon.
+[Parallel programming in Python](https://escience-academy.github.io/2021-04-12-parallel-python/)
