@@ -11,7 +11,7 @@ layout: default
     <h2>Upcoming Workshops</h2>
     {% capture now %}{{ 'now' | date: '%Y%m%d'}}{% endcapture %}
     <ul class="post-list">
-      {% for post in site.posts | sort: "title", "last"  %}
+      {% for post in site.posts reversed  %}
         {% capture date %}{{ post.date | date: '%Y%m%d'}}{% endcapture %}
         {% if date > now %}
           <li>
