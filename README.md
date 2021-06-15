@@ -32,4 +32,3 @@ docker run -v $PWD/:/srv/jekyll -e JEKYLL_VERSION=3.8 -p 4000:4000 jekyll/jekyll
 ```
 * `-v $PWD/:/srv/jekyll`: Mount the current working directory to `/srv/jekyll` inside the docker 
 container. This is where the jekyll docker image expects the source files to be.
-*  
