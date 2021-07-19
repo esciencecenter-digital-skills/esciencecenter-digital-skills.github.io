@@ -4,11 +4,11 @@ title: "Licenses"
 ---
 ## Instructional Material
 
-All Software Carpentry, Data Carpentry, and Library Carpentry instructional material is
-made available under the [Creative Commons Attribution
-license][cc-by-human]. The following is a human-readable summary of
-(and not a substitute for) the [full legal text of the CC BY 4.0
-license][cc-by-legal].
+All eScience Center Digital Skills Programme, Code Refinery, Software Carpentry, Data 
+Carpentry, and Library Carpentry instructional material is made available 
+under the [Creative Commons Attribution license][cc-by-human]. The following 
+is a human-readable summary of (and not a substitute for) the [full legal 
+text of the CC BY 4.0 license][cc-by-legal].
 
 You are free:
 
