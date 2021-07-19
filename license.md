@@ -47,9 +47,14 @@ Notices:
 ## Software
 
 Except where otherwise noted, the example programs and other software
-provided by Software Carpentry and Data Carpentry are made available under the
+provided by Code Refinery, Software Carpentry and Data Carpentry are made available under the
 [OSI][osi]-approved
 [MIT license][mit-license].
+
+Except where otherwise noted, the example programs and other software
+provided by Code Refinery, Software Carpentry and Data Carpentry are made available under the
+[OSI][osi]-approved
+[Apache 2.0 license][apache-license].
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -78,6 +83,7 @@ are registered trademarks of [Community Initiatives][CI].
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
 [mit-license]: https://opensource.org/licenses/mit-license.html
+[apache-license]: https://www.apache.org/licenses/LICENSE-2.0/
 [ci]: http://communityin.org/
 [osi]: https://opensource.org
 {"mode":"full","isActive":false}
