@@ -1,5 +1,5 @@
 ---
 layout: post
-title: Reproducible Computational Environments Using Containers, September 13-14, 2021, Online
+title: Reproducible Computational Environments Using Containers, September 15-16, 2021, Online
 ---
-The details of the workshop and the registration pages will be published soon.
+(Reproducible Computational Environments Using Containers)[https://www.eventbrite.co.uk/e/reproducible-computational-environments-using-containers-tickets-166924809599#]
