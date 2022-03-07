@@ -5,7 +5,7 @@ This repo contains the starting page for eScience academy.
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.md` and include the necessary front matter (as explained [here](https://jekyll.github.io/minima/2016/05/20/welcome-to-jekyll.html)).
 
 ## Jekyll Themes
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/escience-academy/escience-academy.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file. Current template used: [jekyll/minima](https://github.com/jekyll/minima)
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/esciencecenter-digital-skills/esciencecenter-digital-skills.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file. Current template used: [jekyll/minima](https://github.com/jekyll/minima)
 
 For more information on theme selection see:
 https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/
