@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction to Deep Learning, January 25 - 27, 2022, Online
+title: Introduction to Deep Learning, January 25 - 27, 2022, online
 ---
 [Introduction to Deep Learning](https://esciencecenter-digital-skills.github.io/2022-01-25-ds-dl-intro/)
 
