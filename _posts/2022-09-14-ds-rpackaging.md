@@ -3,6 +3,6 @@ layout: post
 title: Reproducible Research with R Packages, 14 September - 5 October, 2022, Netherlands eScience Center
 ---
 
-[Reproducible Research with R Packages](https://esciencecenter-digital-skills.github.io/) (workshop website will be activated once registration is live)
+[Reproducible Research with R Packages](workshop website will be activated once registration is live)
 
 [Registration page](https://www.eventbrite.co.uk/e/reproducible-research-with-r-packages-tickets-399469462917)
