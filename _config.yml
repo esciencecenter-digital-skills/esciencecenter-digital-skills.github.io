@@ -3,9 +3,6 @@ title: eScience Center Digital Skills Programme
 description: Digital Skills Workshops by the Netherlands eScience Center
 future: true
 
-header_pages:
-  - about.md
-
 github_username:  escience-academy
 twitter_username: eScienceCenter
 rss: false
