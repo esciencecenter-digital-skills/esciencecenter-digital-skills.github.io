@@ -9,4 +9,4 @@ Add a new line with the slug and the url (you don't need to add something to 'ot
 
 ## Backup of old _posts
 All data should be in `links.csv`, but if you miss anything you can always have 
-a look at the old posts in the `_posts` folder
+a look at the old posts in the `_posts` folder [here](https://github.com/esciencecenter-digital-skills/esciencecenter-digital-skills.github.io/tree/29cf5c53fb94e9b1868b88bac0f5dde90068d63b)
